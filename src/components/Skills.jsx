@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { 
-  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt, FaAngular, FaDatabase
+  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt, FaAngular
 } from 'react-icons/fa'; // Import d'icônes supplémentaires
 import { SiTypescript, SiTailwindcss, SiMongodb } from 'react-icons/si'; // Autres icônes
 
