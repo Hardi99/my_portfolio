@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { 
-  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt, FaAngular,
+  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt, FaAngular, FaWordpress
 } from 'react-icons/fa'; // Import d'icônes supplémentaires
-import { SiTypescript, SiTailwindcss, SiMongodb } from 'react-icons/si'; // Autres icônes
+import { SiTypescript, SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si'; // Autres icônes
 
 const SkillsSection = styled.section`
   padding: 8rem 2rem;
@@ -72,6 +72,8 @@ const Skills = () => {
     { id: 8, title: 'Angular', icon: <FaAngular />, description: 'Framework performant pour la construction d\'applications avec Angular.' },
     { id: 9, title: 'Tailwind CSS', icon: <SiTailwindcss />, description: 'Framework CSS utilitaire pour une conception rapide et personnalisée.' },
     { id: 10, title: 'MongoDB', icon: <SiMongodb />, description: 'Base de données NoSQL flexible avec MongoDB.' },
+    { id: 11, title: 'WordPress', icon: <FaWordpress />, description: 'Création et gestion de sites web avec WordPress, le CMS le plus populaire.' },
+    { id: 12, title: 'Express.js', icon: <SiExpress />, description: 'Développement d\'applications backend rapides et flexibles avec Express.js, basé sur Node.js.' },
   ];
 
   return (

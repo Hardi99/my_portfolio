@@ -66,8 +66,8 @@ const Header = () => {
         style={{background:'black', padding:'20px'}}
       >
         <h1>Bienvenue sur mon Portfolio!</h1>
-        <p>Je suis un développeur Front-End passionné.</p>
-        <a href="/skills">
+        <p>Je suis un développeur Full-Stack passionné.</p>
+        <a href="/projects">
         <Button whileHover={{ scale: 1.1 }}>Voir mes projets</Button>          
         </a>
       </motion.div>
