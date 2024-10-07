@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { 
-  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt, FaAngular
-} from 'react-icons/fa'; // Import d'icônes supplémentaires
-import { SiTypescript, SiTailwindcss, SiMongodb } from 'react-icons/si'; // Autres icônes
+  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt, FaAngular, SiTypescript, SiTailwindcss, SiMongodb 
+} from 'react-icons'; // Import d'icônes supplémentaires
 
 const SkillsSection = styled.section`
   padding: 8rem 2rem;
