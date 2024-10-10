@@ -125,7 +125,9 @@ const Popup = styled(motion.div)`
     }
 
     .desktop-only {
-      display: block; 
+      display: block;
+      color: #dc3545;
+      font-weight: bold;
 
       @media (max-width: 768px) {
         display: none; 
@@ -190,7 +192,7 @@ const Projects3 = () => {
       <h3>{selectedProject.title}</h3>
       <p>{selectedProject.description}</p>
       <a href={selectedProject.link} target="_blank" rel="noopener noreferrer">Voir le site</a>
-      {selectedProject.desktopOnly && <p className="desktop-only">(Desktop Only)</p>}
+      {selectedProject.desktopOnly && <p className="desktop-only">Desktop Only</p>}
     </motion.div>
   </Popup>
 )}

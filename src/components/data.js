@@ -63,6 +63,7 @@ export const projects = [
     title: 'Projet 8',
     description: 'Description du projet 8...',
     image: actressImage,
-    link: 'https://starlit-blini-5a9d0b.netlify.app/'
+    link: 'https://sparkly-marshmallow-1de744.netlify.app/',
+    desktopOnly: true
   },
 ];
