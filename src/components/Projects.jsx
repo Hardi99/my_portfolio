@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-import pokemonImage from '../assets/pokemon.jpeg'
-import voyageImage from '../assets/voyages.jpeg'
-import natureImage from '../assets/nature.jpeg'
-import photoImage from '../assets/photo.jpeg'
-import numberImage from '../assets/number.jpeg'
-import geocodeImage from '../assets/geocode.jpeg'
+import pokemonImage from '../assets/pokemon.png'
+import voyageImage from '../assets/voyage.png'
+import natureImage from '../assets/nature.png'
+import photoImage from '../assets/photo.png'
+import numberImage from '../assets/number.png'
+import geocodeImage from '../assets/actress.png'
 
 const ProjectsSection = styled.section`
   padding: 8rem 2rem;
@@ -41,12 +41,6 @@ const ProjectCard = styled(motion.a)`
   &:hover {
     transform: translateY(-5px);
   }
-`;
-
-const Image = styled.img`
-  width: 100%;
-  height: 290px;
-  object-fit: cover;
 `;
 
 const Content = styled.div`
@@ -122,7 +116,7 @@ const Projects = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}>
-            <Image src={project.image} alt={project.title} />
+            <div style={{background:`url(${project.image}) center center/coVER no-repeat`, height:'246px'}}></div>
             <Content>
               <ProjectTitle>{project.title}</ProjectTitle>
               <ProjectDescription>{project.description}</ProjectDescription>

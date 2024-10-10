@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { 
-  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt, FaAngular, FaWordpress
+  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt, FaWordpress
 } from 'react-icons/fa'; // Import d'icônes supplémentaires
-import { SiTypescript, SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si'; // Autres icônes
+import { SiTypescript, SiTailwindcss, SiMongodb, SiExpress, SiAngular } from 'react-icons/si'; // Autres icônes
 
 const SkillsSection = styled.section`
   padding: 8rem 2rem;
@@ -62,18 +62,18 @@ const SkillDescription = styled.p`
 
 const Skills = () => {
   const skills = [
+    { id: 10, title: 'MongoDB', icon: <SiMongodb />, description: 'Base de données NoSQL flexible avec MongoDB.' },
+    { id: 12, title: 'Express.js', icon: <SiExpress />, description: 'Développement d\'applications backend rapides et flexibles avec Express.js, basé sur Node.js.' },
     { id: 1, title: 'React', icon: <FaReact />, description: 'Développement d\'interfaces utilisateur interactives avec React.js.' },
+    { id: 8, title: 'Angular', icon: <SiAngular />, description: 'Framework performant pour la construction d\'applications avec Angular.' },
     { id: 2, title: 'Node.js', icon: <FaNodeJs />, description: 'Création d\'API backend robustes et performantes.' },
+    { id: 7, title: 'TypeScript', icon: <SiTypescript />, description: 'Typage statique et sécurité avec TypeScript.' },
+    { id: 5, title: 'JavaScript', icon: <FaJsSquare />, description: 'Programmation JavaScript pour des sites web interactifs.' },
     { id: 3, title: 'HTML5', icon: <FaHtml5 />, description: 'Structuration de contenu web avec HTML5.' },
     { id: 4, title: 'CSS3', icon: <FaCss3Alt />, description: 'Stylisation avancée des sites web avec CSS3.' },
-    { id: 5, title: 'JavaScript', icon: <FaJsSquare />, description: 'Programmation JavaScript pour des sites web interactifs.' },
-    { id: 6, title: 'Git', icon: <FaGitAlt />, description: 'Gestion de version et collaboration avec Git.' },
-    { id: 7, title: 'TypeScript', icon: <SiTypescript />, description: 'Typage statique et sécurité avec TypeScript.' },
-    { id: 8, title: 'Angular', icon: <FaAngular />, description: 'Framework performant pour la construction d\'applications avec Angular.' },
     { id: 9, title: 'Tailwind CSS', icon: <SiTailwindcss />, description: 'Framework CSS utilitaire pour une conception rapide et personnalisée.' },
-    { id: 10, title: 'MongoDB', icon: <SiMongodb />, description: 'Base de données NoSQL flexible avec MongoDB.' },
+    { id: 6, title: 'Git', icon: <FaGitAlt />, description: 'Gestion de version et collaboration avec Git.' },
     { id: 11, title: 'WordPress', icon: <FaWordpress />, description: 'Création et gestion de sites web avec WordPress, le CMS le plus populaire.' },
-    { id: 12, title: 'Express.js', icon: <SiExpress />, description: 'Développement d\'applications backend rapides et flexibles avec Express.js, basé sur Node.js.' },
   ];
 
   return (

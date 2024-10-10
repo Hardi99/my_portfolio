@@ -5,7 +5,7 @@ import { ThemeProvider } from 'styled-components';
 
 import Navbar from './components/Navbar';
 import About from './components/About';
-import Projects from './components/Projects';
+import Projects3 from './components/Projects3';
 import Contact from './components/Contact';
 import Skills from './components/Skills';
 
@@ -33,7 +33,7 @@ const App = () => {
           <Routes>
             <Route exact path="/" element={<Header />} />
             <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects" element={<Projects3 />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
