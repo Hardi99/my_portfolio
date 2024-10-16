@@ -7,6 +7,9 @@ import numberImage from '../assets/number.png'
 import actressImage from '../assets/actress.png'
 import geocodeImage from '../assets/geocode.png'
 import lendorImage from '../assets/lendor.png'
+import netflixImage from '../assets/netflix.png'
+import cafeImage from '../assets/cafe.png'
+import chienImage from '../assets/chien.png'
 
 export const projects = [
   {
@@ -62,8 +65,29 @@ export const projects = [
     id: 8,
     title: 'Projet 8',
     description: 'Description du projet 8...',
+    image: netflixImage,
+    link: 'https://tubular-mandazi-8ab23c.netlify.app/'
+  },
+  {
+    id: 9,
+    title: 'Projet 9',
+    description: 'Description du projet 9...',
+    image: chienImage,
+    link: 'https://preeminent-wisp-2b43e2.netlify.app/'
+  },
+  {
+    id: 10,
+    title: 'Projet 10',
+    description: 'Description du projet 10...',
+    image: cafeImage,
+    link: 'https://nimble-marzipan-aae192.netlify.app/'
+  },
+  /* {
+    id: 11,
+    title: 'Projet 11',
+    description: 'Description du projet 11...',
     image: actressImage,
     link: 'https://sparkly-marshmallow-1de744.netlify.app/',
     desktopOnly: true
-  },
+  }, */
 ];
